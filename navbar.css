@@ -1,0 +1,83 @@
+/*
+	----------Vertical Sticky Navigation Bar---------
+	| 		Created By : Muhamad Bayu Wilanda;		|
+	| 			Twitter : @BayuWilanda;				|
+	|   Email : muhamadbayuwilanda@protonmail.com;	|
+	-------------------------------------------------
+	|			https://github.com/bayubay			|
+	-------------------------------------------------
+*/
+* {
+	margin : 0;
+	padding : 0;
+}
+body {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+h1 {
+	font-family: arial;
+	margin-top: 50px;
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+p {
+	font-family: arial;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+#kiri {
+	position: fixed;
+  width: 20%;
+  height: 100%;
+  background-color: #99CCFF;
+}
+#kiri ul {
+	list-style-type: none;
+	margin-top: 30px;
+	padding: 0;
+}
+#kiri li a {
+	text-decoration: none;
+	border-top: 1px solid black;
+	color: #000000;
+	display: block;
+	height:30px;
+	font-weight: bold;
+	line-height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#kiri li a:hover {
+	background-color: #F0f0f0;
+	color:black;
+	height:30px;
+	line-height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#kanan {
+	width : 683px;
+	height:990px;
+	background-color: #EBEBEB;
+	float: left;
+	margin-left: 22%;
+	font-size: 12px;
+}
+#footer {
+	width : 100%;
+	height: 120px;
+	margin-top: 20px;
+	text-align: center;
+	float: right;
+	background-color: #22272D;
+	color:#929292;
+	font-size: 10;
+}
+#footer a {
+	text-decoration: none;
+	color : #99CCFF;
+	margin-top:10px;
+	font:monospace
+}
